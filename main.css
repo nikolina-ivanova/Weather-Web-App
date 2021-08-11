@@ -1,0 +1,74 @@
+body{
+    font-family: 'montserrat', sans-serif;
+    background-image:url(bg-img.jpg);
+    background-size: cover;
+    background-position: top center;
+    margin: 0;
+}
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15% 30px 15%;
+}
+header input{
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px;
+    background-color: rgb(245, 245, 245);
+    font-size: 17px;
+}
+header input:focus{
+    background-color: rgb(255, 255, 255);
+}
+header .undefined{
+    margin-top: 5px;
+    color: rgb(53, 53, 53);
+    font-size: 14px;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 350px;
+    padding: 30px 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(43, 96, 104, 0.274);
+}
+
+.city{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.date{
+    font-size: 14px;
+}
+.temp{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 18px;
+    text-shadow: 0px 5px rgba(48, 48, 48, 0.301);
+}
+.weather{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.hi-low{
+    font-size: 25px;
+    font-weight: 600;
+}
